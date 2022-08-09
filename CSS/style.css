@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    border: none;
+    color: black;
+}
+
+body{
+    background-image: url(../Assets/background_sistema1.png);
+    background-repeat: no-repeat;   
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a, label{
+    font-size: .8rem;
+}
+
+a:hover{
+    color: #0011ad ;
+}
+
+#container{
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+   padding: 20px 30px;
+   margin-top: 18vh;
+   border-radius: 10px;
+   text-align: center;
+}
+
+h1{
+    font-size: 1.7rem;
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border-bottom: 2px solid #0011ad;
+}
+
+#forgot-pass{
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: whitesmoke;
+    background-color: #25b1ff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #006299;
+    transition: .5s;
+}
